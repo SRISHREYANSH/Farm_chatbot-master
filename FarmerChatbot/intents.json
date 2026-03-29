@@ -1,0 +1,20 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Good morning"],
+        "responses": ["Hello! How can I assist you?", "Hi there!", "Hey!"]
+      },
+      {
+        "tag": "crop_advice",
+        "patterns": ["What should I grow in winter?", "Best crop for summer?"],
+        "responses": ["Wheat is great for winter!", "Try growing rice in summer."]
+      },
+      {
+        "tag": "fertilizer",
+        "patterns": ["Best fertilizer for wheat?", "What fertilizer should I use?"],
+        "responses": ["Use nitrogen-based fertilizers for wheat."]
+      }
+    ]
+  }
+  

@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Database files
+*.db
+*.sqlite3
+
+# OS specific files
+.DS_Store
+Thumbs.db
