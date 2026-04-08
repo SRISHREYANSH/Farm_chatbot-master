@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Traffic Signal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🚦 Smart Traffic Signal System</h1>
+
+    <form method="POST">
+        <label>Enter Hour (0-23):</label>
+        <input type="number" name="hour" min="0" max="23" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if traffic %}
+        <div class="result">
+            <h2>🚗 Predicted Traffic: {{ traffic }}</h2>
+            <h2>⏱ Signal Timing: {{ signal_time }}</h2>
+        </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
